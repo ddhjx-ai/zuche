@@ -1,0 +1,25 @@
+@import "./sassConfig.scss";
+@import "./normalize.scss";
+
+// 获取class开为icon的图标标签
+i[class^=icon] {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: $color_main;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+.icon-help{
+  background-image: url(~@/assets/images/icon/icon-help.png);
+}
+.icon-search{
+  background-image: url(~@/assets/images/icon/icon-search.png);
+}
+.icon-location{
+  background-image: url(~@/assets/images/icon/icon-location.png);
+}
+.icon-user{
+  background-image: url(~@/assets/images/icon/icon-user.png);
+}
