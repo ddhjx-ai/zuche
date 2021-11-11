@@ -7,7 +7,7 @@
     <!-- 导航 -->
     <Navbar></Navbar>
     <!-- 会员 -->
-    <div id="children-view" :class="{'open': show}">
+    <div id="children-view" :class="{ open: show }">
       <router-view></router-view>
     </div>
   </div>

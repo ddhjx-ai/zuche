@@ -8,3 +8,24 @@ $color_main: #34393f;
   -o-#{$type}:$value;
   #{$type}:$value;
 }
+
+@mixin webkitA($type, $value) {
+  #{$type}:-webkit-#{$value};
+  #{$type}:-moz-#{$value};
+  #{$type}:-ms-#{$value};
+  #{$type}:-o-#{$value};
+  #{$type}:#{$value};
+}
+
+// 清除样式
+%clearfix{
+  &:after{
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    line-height: 0;
+    overflow: hidden;
+  }
+  *height:1%
+}
