@@ -23,3 +23,38 @@ i[class^=icon] {
 .icon-user{
   background-image: url(~@/assets/images/icon/icon-user.png);
 }
+
+ /* 集成清除浮动样式 */
+.clearfix{
+  @extend %clearfix;
+}
+
+/* float */
+.pull-right{
+  float: right;
+}
+.pull-left{
+  float: left;
+}
+.fs-24{
+  font-size: 24px;
+}
+.p-r{
+  position: relative;
+}
+.p-a{
+  position: absolute;
+}
+.color_main{
+  color: $color_main;
+}
+/* text-align */
+.t-c{
+  text-align: center;
+}
+.t-r{
+  text-align: right;
+}
+.t-l{
+  text-align: left;
+}
